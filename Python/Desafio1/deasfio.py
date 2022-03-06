@@ -1,2 +1,2 @@
 nome = input('Qual é o seu nome ?')
-print ('Olá é um prazer conhece-lo',nome)
+print ('Olá',nome, 'é um prazer conhece-lo')
