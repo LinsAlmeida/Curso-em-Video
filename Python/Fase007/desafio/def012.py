@@ -1,7 +1,4 @@
-p = input('digite o nome do produto: ')
-v = float(input('digite o valor do produto: '))
-d = 5
+preço = float(input('qual é o preço do produto? R$'))
+novo = preço - (preço * 5 / 100)
 
-soma = d/100*v-v
-
-print(' o Produto {} custa {} mas fica {} com desconto aplicado'.format(p,v,soma))
+print(' O produto que custava R${:.2f}, na promoção com desconto de 5% vai custar R$ {:.2f}'. format(preço, novo))

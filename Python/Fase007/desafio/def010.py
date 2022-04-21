@@ -1,4 +1,4 @@
-dinheiro = float(input('digite seu saldo '))
+dinheiro = float(input('Quanto você tem na carteira? R$ '))
 cota = (dinheiro)/5
 
-print ('O seu saldo em Dolar é {}'.format (cota))
+print ('Com R${:.2f} você pode comprar Uss{:.2f}'.format (dinheiro, cota))
