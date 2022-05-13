@@ -1,4 +1,4 @@
-import random
+from random import shuffle
 a1 = input('Digite o Nome do primeiro aluno: ')
 a2 = input('Digite o Nome do segundo aluno: ')
 a3 = input('Digite o Nome do terceiro aluno: ')
